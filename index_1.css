@@ -1,0 +1,23 @@
+/* ::::: https://gso.amocrm.ru/buttons/v3/css/fcf96553f418c60cd91b4732cff7985edc0f60275daa2d9092efaf63c1040a39.css?1613575991 ::::: */
+
+* { padding: 0px; margin: 0px; box-sizing: border-box; }
+html, body { width: 100%; height: 100%; }
+.amo-button { display: block; width: 50px; height: 50px; background-size: 80% auto !important; position: relative; z-index: 5; cursor: pointer; border-radius: 35px; visibility: visible; opacity: 1; filter: blur(0px); will-change: transform, opacity; transform: translate(0px, 0px); transition: all 0.2s ease-out 0s; }
+.amo-button--livechat[data-badge]:not([data-badge="0"])::before { content: attr(data-badge); position: absolute; top: -3px; right: -3px; width: 20px; height: 20px; background: rgb(235, 87, 87) none repeat scroll 0% 0%; border-radius: 30px; display: flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; font-size: 12px; font-family: Arial; color: rgb(255, 255, 255); }
+.amo-button--instagram { background: rgb(225, 40, 111) url('instagram.svg') no-repeat scroll 50% center; }
+.amo-button--whatsapp { background: rgb(87, 209, 99) url('whatsapp.svg') no-repeat scroll 50% center; }
+.amo-button__link { display: inline-block; width: 100%; height: 100%; }
+.amo-inner-buttons { position: relative; width: 60px; height: auto; margin: 0px auto; z-index: 1; padding-bottom: 0px; }
+.amo-inner-buttons-body { padding: 7px 0px; position: relative; }
+.amo-inner-buttons-body.vertical { height: 100%; position: relative; }
+.amo-inner-buttons .amo-button { margin: 0px auto 4px; }
+.buttonscollapsed .amo-inner-buttons .amo-button { visibility: hidden; }
+.amo-inner-buttons .amo-button:nth-last-of-type(1) { transition-duration: 200ms; }
+.buttonscollapsed .amo-inner-buttons .amo-button:nth-last-of-type(1) { transform: translate(0px, 120px); }
+.amo-inner-buttons .amo-button:nth-last-of-type(2) { transition-duration: 100ms; }
+.buttonscollapsed .amo-inner-buttons .amo-button:nth-last-of-type(2) { transform: translate(0px, 60px); }
+.amo-inner-buttons.vertical { display: flex; -moz-box-orient: vertical; -moz-box-direction: reverse; flex-direction: column-reverse; width: 60px; height: 128px; position: absolute; bottom: 7px; right: 7px; padding: 10px 0px; }
+.buttonscollapsed .amo-button { opacity: 0; }
+.amo-button__title { position: absolute; font-size: 12px; line-height: 14px; border-radius: 14px; white-space: nowrap; opacity: 0; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); padding: 5px 10px; font-family: sans-serif; }
+.vertical .amo-button__title { right: 60px; top: 50%; margin-top: -8px; }
+body:not(.no-titles) .amo-button__title:hover, body:not(.no-titles) .amo-button:hover .amo-button__title { opacity: 0.75; }
